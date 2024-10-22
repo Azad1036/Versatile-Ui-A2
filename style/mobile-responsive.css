@@ -100,6 +100,21 @@
     width: 100%;
 }
 /* Run Related Style End */
+/* Meet Our Team Related Style Start */
+.meet-team-container {
+    margin: 66px 20px;
+}
 
+.meet-team-content {
+    width: 309px;
+}
 
+.meet-team-content h3 {
+    font-size: 32px;
+}
+
+.out-team-member {
+    grid-template-columns: repeat(1, 1fr);
+}
+/* Meet Our Team Related Style End */
 }
