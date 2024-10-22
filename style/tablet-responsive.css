@@ -1,4 +1,4 @@
-@media screen and (min-width:768px){ 
+@media screen and (min-width:769px){ 
     .nav-icon {
         display: none;
     }
@@ -84,4 +84,27 @@
     margin: 72px 30px;
 }
 /* Meet Our Team Related Style End */
+/* Footer Related Style Start */
+.footer-container {
+    margin: 0 30px;
+}
+
+.footer-content {
+    flex-direction: column;
+}
+
+.fitness-first {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.our-services-container {
+    width: 70%;
+}
+
+.fitness-services {
+    padding-top: 0px;
+    padding-bottom: 71px;
+}
+/* Footer Related Style End */
 }

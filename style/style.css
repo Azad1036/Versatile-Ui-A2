@@ -346,4 +346,77 @@
     color: var(--tertiary-color);
     font-size: 14px;
 }
+
 /* Meet Our Team Related Style End */
+/* Footer Related Style Start */
+.footer {
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.footer-container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    gap: 102px;
+
+}
+
+.fitness-first {
+    width: 443px;
+    padding-top: 66px;
+    padding-bottom: 79px;
+}
+
+.fitness-first h3 {
+    color: var(--secondary-color);
+    font-family: Inter;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.fitness-first p {
+    color: var(--tertiary-color);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.our-services-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.fitness-services {
+    padding-top: 66px;
+    padding-bottom: 79px;
+}
+
+.fitness-services h3 {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.fitness-services p {
+    color: var(--tertiary-color);
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.hr-line {
+    stroke-width: 2px;
+    stroke: rgba(255, 255, 255, 0.10);
+}
+
+.copyright {
+    padding: 35px 0;
+    text-align: center;
+    color: var(--tertiary-color);
+    font-size: 20px;
+}
+/* Footer Related Style End */
