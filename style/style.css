@@ -27,6 +27,7 @@
     padding: 16px 40px;
     border: none;
 }
+
 /* Similar Style End Here */
 /* Header related Style Start */
 .header {
@@ -77,6 +78,7 @@
 .nav-icon {
     display: none;
 }
+
 /* Nav Related Style End  */
 /* Banner Related Style Start */
 .banner-container {
@@ -176,9 +178,59 @@
     font-size: 40px;
     font-weight: 900;
 }
-/* Banner Related End  */
 
-.test {
-    margin: 100px 0;
-    color: white;
+/* Banner Related Style End  */
+/* Habits Related Style Start */
+.change-habits-container {
+    margin: 100px auto;
+    max-width: 1060px;
 }
+
+.change-habits-content {
+    text-align: center;
+    width: 671px;
+    margin: 0 auto;
+}
+
+.change-habits-content h3 {
+    color: var(--primary-color);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.change-habits-content p {
+    color: var(--tertiary-color);
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.change-habits-content-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 58px;
+}
+
+.change-habits-content-img img {
+    border-radius: 50%;
+}
+
+.focus {
+    width: 231px;
+    text-align: center;
+}
+
+
+.focus h3 {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.focus p {
+    color: var(--tertiary-color);
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+/* Habits Related Style End */

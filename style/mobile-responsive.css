@@ -55,7 +55,27 @@
         left: 55%;
     }
     /* Banner Related Style Start */
-    
+    /* Habits Related Style Start */
+    .change-habits-container {
+        margin: 0 20px;
+        
+    }
+
+    .change-habits-content {
+        width: 316px;
+    }
+
+    .change-habits-content h3 {
+        font-size: 32px;
+    }
+
+    .change-habits-content-img {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 58px;
+        gap: 40px;
+        justify-items: center;
+    }
+    /* Habits Related Style End */
 
 
 }

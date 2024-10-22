@@ -28,4 +28,24 @@
     left: 55%;
 }
 
+.change-habits-container {
+    margin: 84px 30px;
+    
+}
+
+.change-habits-content {
+    width: 475px;
+}
+
+.change-habits-content h3 {
+    font-size: 48px;
+}
+
+.change-habits-content-img {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 54px;
+    gap: 40px;
+    justify-items: center;
+}
+
 }
