@@ -1,0 +1,31 @@
+@media screen and (min-width:577px) and (max-width:768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+    /* Nav Related Style Start*/
+.nav-ber {
+    margin: 0 30px;
+    padding-top: 52px;
+}
+
+.banner-container {
+    margin: 0 72px;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.fitness-images-container {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.learn-video-tutorial {
+    bottom: 20%;
+    right: 55%;
+}
+
+.learn-free-videos {
+    top: 15%;
+    left: 55%;
+}
+
+}

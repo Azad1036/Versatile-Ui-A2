@@ -1,0 +1,61 @@
+@media screen and (max-width:576px) {
+    /* Nav Related Style Start */
+    .nav-ber {
+        margin: 0 20px;
+        padding-top: 52px;
+    }
+
+    .nav-icon {
+        display: block;
+        color: var(--primary-color);
+        width: 24px;
+        height: 24px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+    /* Nav Related Style End */
+    /* Banner Related Style Start */
+    .banner-container {
+        margin: 0 20px;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .banner-left-side {
+        margin-top: 52px;
+    }
+
+    .banner-left-side h3 {
+        font-size: 36px;
+        width: 285px;
+    }
+
+    .banner-left-side p {
+        width: 274px;
+    }
+
+    .btn {
+        display: flex;
+    }
+
+    .fitness-images-container {
+        text-align: center;
+        padding-top: 48px;
+    }
+
+    .learn-video-tutorial {
+        bottom: 40%;
+        right: 55%;
+    }
+    
+    .learn-free-videos {
+        top: 15%;
+        left: 55%;
+    }
+    /* Banner Related Style Start */
+    
+
+
+}
