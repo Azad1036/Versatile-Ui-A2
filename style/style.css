@@ -67,6 +67,10 @@
     font-size: 18px;
 }
 
+.nav-icon {
+    display: none !important;
+}
+
 .nav-home {
     padding: 8px 20px;
     color: var(--primary-color);
@@ -74,11 +78,6 @@
     border-radius: 46px;
     background: var(--secondary-color);
 }
-
-.nav-icon {
-    display: none;
-}
-
 /* Nav Related Style End  */
 /* Banner Related Style Start */
 .banner-container {
@@ -278,12 +277,118 @@
 }
 
 /* Run Related Style End */
+/* BMI Calculator Related Style Start */
+.bmi-calculator {
+    background: #222;
+}
+
+.bmi-content {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.bmi {
+    width: 650px;
+    margin-bottom: 88px;
+    margin-left: 195px;
+}
+
+.bmi h3 {
+    color: var(--primary-color);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bmi p {
+    color: var(--tertiary-color);
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.bmi-calculator-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 175px;
+    padding: 52px 0;
+}
+
+.bmi-calculator-chart {
+    width: 443px;
+}
+
+.bmi-calculator-chart h3 {
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+
+table,
+td {
+    stroke-width: 1px;
+    stroke: rgba(255, 255, 255, 0.10);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td {
+    padding: 13px;
+}
+
+td {
+    color: var(--tertiary-color);
+    font-size: 14px;
+}
+
+.bmi-calculator-live h3 {
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.bmi-calculator p {
+    color: var(--tertiary-color);
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.bmi-calculator-input {
+    margin: 34px 0;
+}
+
+.bmi-input {
+    display: flex;
+    gap: 12px;
+}
+
+.bmi-input input,
+.select {
+    padding: 12px 0;
+    border-radius: 8px;
+    padding-left: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    outline: none;
+    border: none;
+    color: var(--tertiary-color);
+    width: 100%;
+}
+
+.bmi-input-tow {
+    margin: 12px 0;
+}
+
+/* BMI Calculator Related Style End */
 /* Meet Our Team Related Style Start */
 .meet-team-container {
     max-width: 1060px;
     margin: 88px auto;
 }
-
 
 .meet-team-content {
     width: 671px;
@@ -419,4 +524,6 @@
     color: var(--tertiary-color);
     font-size: 20px;
 }
+
 /* Footer Related Style End */
+

@@ -6,7 +6,7 @@
     }
 
     .nav-icon {
-        display: block;
+        display: block !important;
         color: var(--primary-color);
         width: 24px;
         height: 24px;
@@ -100,6 +100,32 @@
     width: 100%;
 }
 /* Run Related Style End */
+/* BMI Calculator Related Style Start */
+.bmi-content {
+    margin: 0 20px;
+}
+
+.bmi {
+    width: 353px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.bmi h3 {
+    font-size: 32px;
+}
+
+.bmi-calculator-container {
+    margin: 34px 20px;
+    flex-direction: column;
+    gap: 42px;
+    padding: 34px 0;
+}
+
+.bmi-calculator-chart h3 {
+    margin-bottom: 23px;
+}
+/* BMI Calculator Related Style End */
 /* Meet Our Team Related Style Start */
 .meet-team-container {
     margin: 66px 20px;
