@@ -73,6 +73,17 @@
     font-size: 36px;
 }
 /* Run Related Style End */
+/* Trainings and Exercises related style Start*/
+.training-container {
+    margin: 0 30px;
+    margin-bottom: 62px;
+}
+
+.training-header {
+    text-align: left;
+    margin: 0 0;
+}
+/* Trainings and Exercises related style End*/
 /* BMI Calculator Related Style Start */
 
 .bmi-calculator-container {
